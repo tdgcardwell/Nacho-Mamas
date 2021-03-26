@@ -69,3 +69,20 @@ h2 {
   font-weight: 600;
   font-size: 2rem;
 }
+
+aside {
+  background-color: #001;
+  color: ghostwhite;
+}
+
+aside h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+aside p {
+  max-width: 65%;
+  min-width: 300px;
+  margin: auto;
+}
