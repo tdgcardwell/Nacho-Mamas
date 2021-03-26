@@ -38,6 +38,10 @@ nav {
   min-height: 10vh;
 }
 
+nav ul {
+  margin-top: 0;
+}
+
 aside, section {
   min-height: 100vh;
     padding: 10vh 2rem 3rem;
