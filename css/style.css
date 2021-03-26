@@ -1,4 +1,49 @@
 * {
   box-sizing: border-box;
-  color: red;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 30vh 0;
+  background-color: tomato;
+  border: 2rem solid yellow;
+  height: 100vh;
+}
+
+h1, header p {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Eczar', serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: yellow;
+}
+
+header p {
+  font-size: 2rem;
+}
+
+nav {
+  background-color: tomato;
+  position: sticky;
+  top: 0;
+  min-height: 10vh;
+}
+
+aside, section {
+  min-height: 100vh;
+    padding: 10vh 2rem 3rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
 }
